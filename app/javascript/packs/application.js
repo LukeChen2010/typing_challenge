@@ -15,7 +15,3 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
-const sentence = "Try typin' this sentence as fast as you can. Think you can beat the record?!"
-
-const typingWindow = document.getElementById("typing_window")

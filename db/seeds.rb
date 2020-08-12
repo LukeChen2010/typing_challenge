@@ -12,7 +12,12 @@ Passage.create(title: "Declaration of Independence Opener", contents: "We hold t
 
 Highscore.create(time: 12000, name: "Bob", passage_id: 1)
 Highscore.create(time: 11000, name: "Joe", passage_id: 1)
+Highscore.create(time: 10000, name: "Ann", passage_id: 1)
+Highscore.create(time: 14000, name: "Ann", passage_id: 1)
+
 Highscore.create(time: 11000, name: "Ken", passage_id: 2)
 Highscore.create(time: 12000, name: "Roy", passage_id: 2)
+
 Highscore.create(time: 12000, name: "Sam", passage_id: 3)
-Highscore.create(time: 12000, name: "Max", passage_id: 3)
+Highscore.create(time: 13000, name: "Max", passage_id: 3)
+Highscore.create(time: 11000, name: "Sue", passage_id: 3)

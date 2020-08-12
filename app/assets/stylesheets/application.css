@@ -13,23 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
- #typing_window {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-}
-
-#typing_window > div {
-    display: inline-block;
-}
-
-.correct {
-    background-color: green;
-}
-
-.mistake {
-    background-color: red;
-}

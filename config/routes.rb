@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get '/passages' => 'passages#index'
   get '/passages/:id' => 'passages#show' 
   get '/passages/:id/highscores' => 'highscores#index' 
+  post '/passages/:id/highscores/new' => 'highscores#create' 
 end

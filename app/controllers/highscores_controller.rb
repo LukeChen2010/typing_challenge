@@ -1,7 +1,7 @@
 class HighscoresController < ApplicationController
     def index
         passage = Passage.find_by(id: params[:id])
-        highscores = passage.highscores#.sort_by {|x| x.time}
+        highscores = passage.highscores.sort_by {|x| x.time}
         render json: highscores
     end
 
